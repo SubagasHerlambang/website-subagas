@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMK 4 COMMUNITY</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!--Navbar Start-->
+    <div class="navbar">
+      <a href="#" class="logo">
+        <img src="/img/logosmk.png" alt="logo" />
+        <h2>SMK 4 COMMUNITY</h2>
+      </a>
+      <div class="navbar-nav">
+        <span class="close-btn material-symbols-rounded"></span>
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Website</a>
+        <a href="#informasi">Pusat Informasi</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        <button class="login-btn">LOG IN</button>
+      </div>
+    </div>
+    <div class="form-popup">
+      <span class="close-btn material-symbols-rounded">close</span>
+      <div class="form-box login">
+        <div class="form-details">
+          <h2>Selamat Datang</h2>
+          <p>
+            Harap login untuk mengetahui informasi lebih luas tentang website
+            kami.
+          </p>
+        </div>
+        <div class="form-content">
+          <h2>LOGIN</h2>
+          <form action="#">
+            <div class="input-field">
+              <input type="text" required />
+              <label>Email</label>
+            </div>
+            <div class="input-field">
+              <input type="password" required />
+              <label>Password</label>
+            </div>
+            <a href="#" class="forgot-pass-link">Lupa password?</a>
+            <button type="submit">Log In</button>
+          </form>
+          <div class="bottom-link">
+            Belum Punya Akun?
+            <a href="#" id="signup-link">Signup</a>
+          </div>
+        </div>
+      </div>
+      <div class="form-box signup">
+        <div class="form-details">
+          <h2>Buat Akun</h2>
+          <p>
+            Untuk menjadi bagian dari Komunitas kami.Silahkan mendaftar
+            menggunakan informasi pribadi Anda.
+          </p>
+        </div>
+        <div class="form-content">
+          <h2>SIGNUP</h2>
+          <form action="#">
+            <div class="input-field">
+              <input type="text" required />
+              <label>Masukkan email</label>
+            </div>
+            <div class="input-field">
+              <input type="password" required />
+              <label>Buat password</label>
+            </div>
+            <div class="policy-text">
+              <input type="checkbox" id="policy" />
+              <label for="policy">
+                Menyutujui
+                <a href="#" class="option">Syarat & Ketentuan</a>
+              </label>
+            </div>
+            <button type="submit">Sign Up</button>
+          </form>
+          <div class="bottom-link">
+            Sudah memiliki Akun?
+            <a href="#" id="login-link">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Navbar End-->
+
+    <!--Hero Section Start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Selamat Datang di Website Kami</h1>
+        <p>
+          Mari ciptakan lingkungan komunitas yang positif dan bermanfaat. untuk
+          kemajuan bangsa dan Negara.
+        </p>
+      </main>
+    </section>
+    <!--Hero Section Start-->
+
+    <!--Tentang Website Start-->
+    <section class="about" id="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <!-- <div class="about-img">
+          <img src="tentang-kami.jpg" alt="Tentang Kami" />
+        </div> -->
+        <div class="content">
+          <h3>Kenapa website ini tercipta?</h3>
+          <p>
+            Karena tujuan kami membuat website ini untuk mengajak siswa dan
+            siswi SMK N 4 kuningan dengan berkreativitas dan berkreasi untuk
+            menciptakan generasi yang lebih maju dan kreatif.
+          </p>
+          <p>
+            Di Website ini kalian dapat mengetahui informasi dan dapat
+            menciptakan lebih banyak relasi dengan bergabung komunitas
+            kami.karena komunitas kami akan mengadakan seminar setiap minggunya
+            untuk sharing-sharing tentang pengalaman dan ilmu mengenai jurusan
+            yang terdapat di SMKN 4 KUNINGAN.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Tentang Website Start-->
+
+    <!--pusat informasi start-->
+    <section class="information" id="informasi">
+      <h2><span>Pusat</span> Informasi</h2>
+
+      <!-- Showcase -->
+      <header class="showcase">
+        <h2>SMK 4 COMMUNITY</h2>
+        <p>
+          Smk 4 Community merupakan kumpulan siswa siswi SMKN 4 KUNINGAN yang
+          terbentuk dalam komunitas dari berbagai jurusan dengan tujuan untuk
+          terciptanya siswa dan siswi yang dapat berkreasi dan berkreativitas
+          sesuai jurusannya masing masing.
+        </p>
+        <p>Berikut berbagai jurusan yang terdapat di SMKN 4 KUNINGAN :</p>
+      </header>
+
+      <!-- Home cards 1 -->
+      <section class="home-cards">
+        <div>
+          <img src="/img/logo-rpl.png" alt="" />
+          <h3>REKAYASA PERANGKAT LUNAK</h3>
+          <p>
+            Jurusan ini Merupakan jurusan yang didalamnya mempelajari bagaimana
+            membuat sebuah website dan aplikasi
+          </p>
+          <a href="#">Baca selengkapnya <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="/img/logo-titl.png" alt="" />
+          <h3>TEKNIK INSTALASI TENAGA LISTRIK</h3>
+          <p>
+            Teknik Listrik (Teknik Elektro) adalah salah satu bidang ilmu teknik
+            mengenai aplikasi listrik untuk memenuhi kebutuhan daya listrik
+            dalam skala besar.
+          </p>
+          <a href="#">Baca selengkapnya <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="/img/logo-tkr.png" alt="" />
+          <h3>TEKNIK KENDARAAN RINGAN OTOMOTIF</h3>
+          <p>
+            Teknik Kendaraan Ringan Otomotif merupakan kompetensi keahlian
+            bidang teknik otomotif yang menekankan keahlian dalam bidang
+            penguasaan jasa perbaikan kendaraan ringan.
+          </p>
+          <a href="#">BACA SELENGKAPNYA <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="/img/logo-otkp.png" alt="" />
+          <h3>OTOMATISASI TATA KELOLA PERKANTORAN</h3>
+          <p>
+            Otomatisasi Tata Kelola Perkantoran merupakan jurusan yang
+            mempelajari tentang pengetahuan, keterampilan, dan sikap dalam
+            menyelesaikan pekerjaan-pekerjaan perusahaan atau kantor.
+          </p>
+          <a href="#">Baca Selengkapnya <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="/img/logo-akl.png" alt="" />
+          <h3>AKUNTANSI DAN KEUANGAN LEMBAGA</h3>
+          <p>
+            Akuntansi dan keuangan lembaga merupakan merupakan bidang
+            kompentensi yang mempelajari mencatat, mengelompokkan, mengolah,
+            menyajikan data yang berhubungan dengan keuangan.
+          </p>
+          <a href="#">BACA SELENGKAPNYA <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="/img/logo-tbsm.png" alt="" />
+          <h3>TEKNIK BISNIS DAN SEPEDA MOTOR</h3>
+          <p>
+            Teknik bisnis dan sepeda motor merupakan salah satu cabang ilmu
+            teknik mesin yang mempelajari tentang bagaimana merancang, membuat
+            dan mengembangkan alat-alat transportasi darat yang menggunakan
+            mesin terutama sepeda motor.
+          </p>
+          <a href="#">Baca Selenkapnya <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </section>
+
+      <!-- Xbox -->
+      <section class="xbox">
+        <div class="content">
+          <img src="/img/gambar-siswa.jpg" alt="">
+          <h2>Mari Bergabung Dengan Komunitas kami</h2>
+          <p>
+            Pilihlah Komunitas yang anda minati dan daftarkan segera dibawah ini.
+          </p>
+        </div>
+      </section>
+
+      <!-- Home cards 2 -->
+      <section class="home-cards">
+        <div>
+          <img src="/img/gambar-1.jpg" alt="" />
+          <h3>Komunitas Pencinta Alam</h3>
+          <p>Mari Bergabung Dengan komunitas kami untuk menjelajahi dunia alam yang indah di Indonesia. </p>
+          <a href="#">Daftar Sekarang <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="/img/gambar-2.jpg" alt="" />
+          <h3>Komunitas Pengembangan Game & Robot</h3>
+          <p>
+            Mari Bergabung Dengan Komunits kami.Bagi siapa yang ingin merasakan bagaimana  dunia teknologi melalui Game & Robot.
+          </p>
+          <a href="#">Daftar Sekarang <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="/img/gambar-4.jpg" alt="" />
+          <h3>Komunitas Bengkel Seni</h3>
+          <p>Mari Bergabung Dengan Komunitas Kami.Mari melestarikan budaya bangsa dengan bergabung di komunitas ini.</p>
+          <a href="#">Daftar Sekarang <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="/img/gambar-3.jpg" alt="" />
+          <h3>Komunitas Pencinta Kucing</h3>
+          <p>
+            Mari Bergabung Dengan Komunitas Kami. Mari Lindungi Dan cintai Kucing dilinggkungan kita.
+          </p>
+          <a href="#">Daftar Sekarang <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </section>
+    </section>
+    <!--pusat informasi End-->
+
+    <!--Contact Start-->
+    <section class="contact" id="contact">
+      <h2><span>Kontak </span>Kami</h2>
+      <p>
+        Silahkan hubungi kami mengenai kritik dan saran.
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126791.12193795356!2d108.47163524169895!3d-6.742685203581408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ee2649e6e5bbb%3A0x70a07638a7fe12fe!2sCirebon%2C%20Kota%20Cirebon%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1694096167971!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No Hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!--Contact End-->
+
+    <!--Footer Start-->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Pusat Informasi</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By <a href="">subagasherlambang</a>. | &copy; 2023</p>
+      </div>
+    </footer>
+    <!--Footer End -->
+
+    <!--Feather Icons-->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="script .js"></script>
+  </body>
+</html>
